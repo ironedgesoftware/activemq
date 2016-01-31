@@ -16,9 +16,11 @@
         "issues": "https://github.com/ironedgesoftware/activemq/issues"
     },
     "require": {
-        "php":                          "^7.0",
+        "php":                              "^7.0",
 
-        "ironedge/config":              "^1.0"
+        "ironedge/config":                  "^1.0",
+
+        "stomp-php/stomp-php":              "4.*"
     },
     "require-dev": {
         "phpunit/phpunit":              "^4.5 || ^5.0.5",

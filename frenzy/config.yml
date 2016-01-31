@@ -1,0 +1,14 @@
+
+
+components:
+  ironedge/kernel:
+    config:
+      processor:
+        class:                  \IronEdge\Component\ActiveMq\Config\Processor
+        priority:               99
+  ironedge/cli:
+    commands:
+      produce:
+        class: \IronEdge\Component\ActiveMq\Console\Command\Produce
+      consume:
+              class: \IronEdge\Component\ActiveMq\Console\Command\Consume
